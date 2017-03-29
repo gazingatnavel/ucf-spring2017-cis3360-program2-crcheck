@@ -3,7 +3,7 @@ bash shell script for automated testing of crcheck program
 
 This is a bash shell script that automates testing of the crcheck program for UCF Spring 2017 CIS 3360 program assignment 2.
 
-The shell script (*run-test-cases.sh*) will work for a C source code file named crcheck.c or a Java source file named crcheck.java.
+The shell script (`run-test-cases.sh`) will work for a C source code file named crcheck.c or a Java source file named crcheck.java.
 
 Here's what it does:
 
@@ -63,6 +63,6 @@ Some technical details:
 
 I've attempted to make the sample output files exactly match the output provided in the program assignment instructions. I'm not sure how closely the graders will expect the number of blank lines in your output to match those in the test output.
 
-I'm not an expert in bash shell scripting, but this script seems to work for me in the Eustis linux environment. You may have to modify it slightly to work on your home computer. (Specifically, you may need to modify line 21 *gcc crcheck.c -o crcheck* to match the compiler on your home computer. On a Mac, you can use *cc crcheck.c -o crcheck*. Not sure what, if any, modifications would be required to run the script on a Windows computer.)
+I'm not an expert in bash shell scripting, but this script seems to work for me in the Eustis linux environment. You may have to modify it slightly to work on your home computer. (Specifically, you may need to modify line 21 `gcc crcheck.c -o crcheck` to match the compiler on your home computer. On a Mac, you can use `cc crcheck.c -o crcheck`. Not sure what, if any, modifications would be required to run the script on a Windows computer.)
 
 This script is closely modeled on similar testing scripts provided by Dr. Sean Szumlanski for COP 3503 Fall 2016 at UCF.
