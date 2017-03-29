@@ -9,7 +9,7 @@ Here's what it does:
 
 1. For C source, compiles the file `crcheck.c` to a `crcheck` executable. Prints a message if `crcheck.c` fails to compile. For Java source, compiles the file `crcheck.java` to `crcheck.class`.
 2. Runs the `crcheck` executable with the `c` option for each plain data input file (e.g., `input2A.plain`) and with the `v` option for each crc data input file (e.g., `input2A-crc`), and writes the output to a file (e.g., `input2A-plain.txt` or `input2A-crc.txt`). Prints a message if the `crcheck` executable crashes or terminates before computing or verifying the input/crc file.
-3. Compares the output file to the sample output file and prints either `PASS` or `fail (output does not match).
+3. Compares the output file to the sample output file and prints either `PASS` or `fail (output does not match)`.
 
 
 To use the shell script:
