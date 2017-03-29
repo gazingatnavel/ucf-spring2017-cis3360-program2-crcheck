@@ -3,8 +3,6 @@
 # Variable '$?' is the exit status of a command
 
 # Test for C or Java program.
-#isC=0
-
 if [ -a "crcheck.c" ]; then
     isC=1
 elif [ -a "crcheck.java" ]; then
