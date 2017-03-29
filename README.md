@@ -7,16 +7,16 @@ The shell script (`run-test-cases.sh`) will work for a C source code file named 
 
 Here's what it does:
 
-1. For C source, compiles the file *crcheck.c* to a *crcheck* executable. Prints a message if *crcheck.c* fails to compile. For Java source, compiles the file *crcheck.java* to *crcheck.class*.
-2. Runs the *crcheck* executable with the *c* option for each plain data input file (e.g., *input2A-plain*) and with the *v* option for each crc data input file (e.g., *input2A-crc*), and writes the output to a file (e.g., *input2A-plain.txt* or *input2A-crc.txt*). Prints a message if the *crcheck* executable crashes or terminates before computing or verifying the input/crc file.
-3. Compares the output file to the sample output file and prints either *PASS* or *fail (output does not match)*.
+1. For C source, compiles the file `crcheck.c` to a `crcheck` executable. Prints a message if `crcheck.c` fails to compile. For Java source, compiles the file `crcheck.java` to `crcheck.class`.
+2. Runs the `crcheck` executable with the `c` option for each plain data input file (e.g., `input2A.plain`) and with the `v` option for each crc data input file (e.g., `input2A-crc`), and writes the output to a file (e.g., `input2A-plain.txt` or `input2A-crc.txt`). Prints a message if the `crcheck` executable crashes or terminates before computing or verifying the input/crc file.
+3. Compares the output file to the sample output file and prints either `PASS` or `fail (output does not match).
 
 
 To use the shell script:
 
 1. Copy the shell script and the sample output files from here to a directory in Eustis.
-2. Copy the data input files provided for the assignment (*input2A.plain*, *input2A.crc*, etc.) to the same directory in Eustis.
-3. Copy your crcheck.c (or crcheck.java) file to the same directory in Eustis.
+2. Copy the data input files provided for the assignment (`input2A.plain`, `input2A.crc`, etc.) to the same directory in Eustis.
+3. Copy your `crcheck.c` (or `crcheck.java`) file to the same directory in Eustis.
 4. Make the script executable by running the command `chmod 744 run-test-cases.sh`.
 5. From within the directory where the files are located, run the command `./run-test-cases.sh`.
 
