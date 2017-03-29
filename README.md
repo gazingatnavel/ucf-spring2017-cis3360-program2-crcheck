@@ -1,4 +1,4 @@
-# uff-spring2017-cis3360-program2-crcheck
+# ucf-spring2017-cis3360-program2-crcheck
 bash shell script for automated testing of crcheck program
 
 This is a bash shell script that automates testing of the crcheck program for UCF Spring 2017 CIS 3360 program assignment 2.
