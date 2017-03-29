@@ -1,0 +1,22 @@
+CRC15 Input text from file
+
+abcdefghijklmnopqrstuvwxyz12345-ABCDEFGHIJKLMNOPQRSTUVWXYZ12345a
+bcdefghijklmnopqrstuvwxyz12345-ABCDEFGHIJKLMNOPQRSTUVWXYZ12345ab
+cdefghijklmnopqrstuvwxyz12345-ABCDEFGHIJKLMNOPQRSTUVWXYZ12345abc
+defghijklmnopqrstuvwxyz12345-ABCDEFGHIJKLMNOPQRSTUVWXYZ12345abcd
+efghijklmnopqrstuvwxyz12345-ABCDEFGHIJKLMNOPQRSTUVWXYZ12345abcde
+fghijklmnopqrstuvwxyz12345-ABCDEFGHIJKLMNOPQRSTUVWXYZ12345
+
+CRC 15 calculation progress:
+
+abcdefghijklmnopqrstuvwxyz12345-ABCDEFGHIJKLMNOPQRSTUVWXYZ12345a - 00001a6a
+bcdefghijklmnopqrstuvwxyz12345-ABCDEFGHIJKLMNOPQRSTUVWXYZ12345ab - 00007d1d
+cdefghijklmnopqrstuvwxyz12345-ABCDEFGHIJKLMNOPQRSTUVWXYZ12345abc - 00001fdf
+defghijklmnopqrstuvwxyz12345-ABCDEFGHIJKLMNOPQRSTUVWXYZ12345abcd - 00000d90
+efghijklmnopqrstuvwxyz12345-ABCDEFGHIJKLMNOPQRSTUVWXYZ12345abcde - 0000259f
+fghijklmnopqrstuvwxyz12345-ABCDEFGHIJKLMNOPQRSTUVWXYZ12345...... - 00003ef2
+................................................................ - 000057ad
+........................................................000075dc - 000075dc
+
+CRC15 result : 000075dc
+

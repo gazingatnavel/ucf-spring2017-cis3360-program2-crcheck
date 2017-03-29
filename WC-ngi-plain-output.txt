@@ -1,0 +1,21 @@
+CRC15 Input text from file
+
+"This is the lesson: never give in, never give in, never, never,
+ never, never - in nothing, great or small, large or petty - nev
+er give in except to convictions of honour and good sense. Never
+ yield to force; never yield to the apparently overwhelming migh
+t of the enemy."
+
+CRC 15 calculation progress:
+
+"This is the lesson: never give in, never give in, never, never, - 000015fa
+ never, never - in nothing, great or small, large or petty - nev - 00006206
+er give in except to convictions of honour and good sense. Never - 00002dd2
+ yield to force; never yield to the apparently overwhelming migh - 000007bf
+t of the enemy."................................................ - 0000702e
+................................................................ - 000024a1
+................................................................ - 00005be7
+........................................................00002db9 - 00002db9
+
+CRC15 result : 00002db9
+

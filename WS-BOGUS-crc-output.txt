@@ -1,0 +1,27 @@
+CRC15 Input text from file
+
+O proud left foot, that ventures quick within Then soon upon a b
+ackward journey lithe. Anon, once more the gesture, then begin: 
+Command sinistral pedestal to writhe. Commence thou then the fer
+vid Hokey-Poke, A mad gyration, hips in wanton swirl. To spin! A
+ wilde release from Heavens yoke. Blessed dervish! Surely canst 
+go, girl. The Hoke, the poke - banish now thy doubt Verily, I sa
+y, 'tis what it's all about.  -  by "William Shakespeare" ......
+........................................................000045c5
+
+
+CRC 15 calculation progress:
+
+O proud left foot, that ventures quick within Then soon upon a b - 000015c6
+ackward journey lithe. Anon, once more the gesture, then begin:  - 0000597e
+Command sinistral pedestal to writhe. Commence thou then the fer - 00007ac9
+vid Hokey-Poke, A mad gyration, hips in wanton swirl. To spin! A - 0000516e
+ wilde release from Heavens yoke. Blessed dervish! Surely canst  - 00003fb4
+go, girl. The Hoke, the poke - banish now thy doubt Verily, I sa - 000071d3
+y, 'tis what it's all about.  -  by "William Shakespeare" ...... - 000025a8
+........................................................000045b5 - 000045b5
+
+CRC15 result : 000045b5
+
+CRC 15 verification failed
+
