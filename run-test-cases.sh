@@ -101,7 +101,7 @@ do
 done
 
 # Run for WS-BOGUS.crc, which fails CRC validation.
-echo -n "Checking crcheck v WC-BOGUS.crc... "
+echo -n "Checking crcheck v WS-BOGUS.crc... "
 ./crcheck v WS-BOGUS.crc > WS-BOGUS-crc.txt 2> /dev/null
 
 execute_val=$?
